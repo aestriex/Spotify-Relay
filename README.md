@@ -8,7 +8,7 @@ Spotify Relay is a bot allowing users to listen to their favorite songs and podc
 
 This is the official GitHub repository for the bot. The repository servers as a place for members of the community to audit the bot's code, suggest updates to the code directly, and submit fatal bug reports.
 
-**Note:** This repository is not a module or package.
+**Note:** This repository is not a module or package. This bot has not yet been released.
 
 ## Bot Commands
 This bot has a range of commands to make sure that the bot is as accessible to its audience as possible.
@@ -36,6 +36,7 @@ This bot has a range of commands to make sure that the bot is as accessible to i
 ## Usage
 
 To use this bot in your own server, invite it using the below url:
+**Important:** This bot has *not* been fully released as of 2022-07-17.
 
 https://discord.com/api/oauth2/authorize?client_id=997975523978387456&permissions=3165440&scope=bot%20applications.commands
 
@@ -51,6 +52,16 @@ https://discord.com/api/oauth2/authorize?client_id=997975523978387456&permission
 | Connect         | We need this permission to connect to Voice Channels in your server once a play command has been issues to the bot. | Required |
 | Speak           | We need this permission in order to actually play the song requested in the Voice Channels. | Required |
 | Priority Speaker| This permission is needed to make sure music plays above regular chatter within connected Voice Channels. | Not Required |
+
+
+
+<details>
+<summary>For the developers</summary>
+Final Permission Integer: 3165440  
+  
+A permission is required that is called `applications.commands` in guilds to ensure the bot can write commands to the server, and read them once executed.
+</details>
+
 
 ## Contributors
 Main Writer: Aestriex#3839  
