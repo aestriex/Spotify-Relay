@@ -66,7 +66,6 @@ A permission is required that is called `applications.commands` in guilds to ens
 
 ## Contributors
 Main Writer: Aestriex#3839  
-System Contributor: PoRiFiRo〥#0001
 
 ### Contributing
 You can help this bot by submitting Feature Requests on the Discussions menu, submitting Pull Requests to change/audit features, or simply starring this repository to let the current contributors know that our work is appreciated.
