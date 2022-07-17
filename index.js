@@ -7,10 +7,8 @@ const { glob } = require("glob");
 const PG = promisify(glob);
 
 client.commands = new Collection();
-client.buttons = new Collection();
 
 require("./Handlers/Events")(client, PG);
 require("./Handlers/Commands")(client, PG);
-require("./Handlers/Buttons")(client, PG);
 
 client.login(Token);
