@@ -1,0 +1,22 @@
+/* const { MessageEmbed, Role, WebhookClient } = require("discord.js");
+
+module.exports = {
+    name: "roleUpdate",
+    /**
+     * 
+     * @param {Role} oldRole
+     * @param {Role} newRole 
+     */ /*
+execute(oldRole, newRole) {
+   const webhookClient = new WebhookClient({ id: '948738311428661339', token: 'UcxV7YGZ4wV7EmYuQVYiuVeMdP12cOCLlJrAaSXmRjvghlJ72Z-XRHRCEX2Mo6SmfD4R' });
+
+   const Log = new MessageEmbed()
+       .setTitle('Role Updated')
+       .setColor("RANDOM")
+       .setTimestamp()
+       .addField("Before", `Name: ${oldRole.name}\nCreated: <t:${parseInt(oldRole.createdTimestamp / 1000)}:R>\nDisplay Seperatly: ${oldRole.hoist}\nMentionable: ${oldRole.mentionable}\nPosition: ${oldRole.position}\nPermissions: ${oldRole.permissions.map(r => r).join(", ")}`, true)
+       .addField("After", `Name: ${newRole.name}\nCreated: <t:${parseInt(newRole.createdTimestamp / 1000)}:R>\nDisplay Seperatly: ${newRole.hoist}\nMentionable: ${newRole.mentionable}\nPosition: ${newRole.position}\nPermissions: ${newRole.permissions.map(r => r).join(", ")}`, true);
+
+   webhookClient.send({ embeds: [Log] });
+} 
+} */

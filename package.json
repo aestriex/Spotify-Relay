@@ -1,0 +1,21 @@
+{
+  "name": "bot-for-scp-nb",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aestriex",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.8.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  }
+}
