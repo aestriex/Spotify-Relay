@@ -1,5 +1,4 @@
-const { CommandInteraction } = require("discord.js");
-const { Player } = require("jericho-player");
+const { CommandInteraction, MessageEmbed } = require("discord.js");
 
 module.exports = {
     name: "play",
@@ -28,8 +27,12 @@ module.exports = {
             return interaction.reply('You must be in a voice channel to use this command.');
         };
 
+        const queuedEmbed = new MessageEmbed()
+            .setDescription(`Added **${song}** to the queue.`)
+            .setColor("#303136");
+
         queue.play(song, channel, user);
-        return interaction.reply(`Now playing **${song}**, added by \<@${user.id}>.`, {"allowedMentions": { "users" : []}}).catch(err => {})
+        return interaction.reply({embeds: [queuedEmbed]});
     }
 
 
