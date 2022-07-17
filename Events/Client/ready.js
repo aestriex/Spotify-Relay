@@ -21,5 +21,15 @@ module.exports = {
         }).catch(err => {
             console.log("Databse Intiation Error: " + err);
         });
+
+        client.user.setPresence({
+            status: 'online',
+            activities: [
+              {
+                name: '/play',
+                type: 'LISTENING',
+              },
+            ],
+          })
     }
 }

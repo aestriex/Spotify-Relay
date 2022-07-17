@@ -2,7 +2,7 @@ const { CommandInteraction } = require("discord.js");
 
 module.exports = {
     name: "ping",
-    description: "Fetch the latency of the bot.",
+    description: "Check the API Latency!",
     /**
      * 
      * @param {CommandInteraction} interaction 

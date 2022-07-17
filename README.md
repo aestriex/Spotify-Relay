@@ -52,6 +52,7 @@ https://discord.com/api/oauth2/authorize?client_id=997975523978387456&permission
 | Connect         | We need this permission to connect to Voice Channels in your server once a play command has been issues to the bot. | Required |
 | Speak           | We need this permission in order to actually play the song requested in the Voice Channels. | Required |
 | Priority Speaker| This permission is needed to make sure music plays above regular chatter within connected Voice Channels. | Not Required |
+| Use Voice Activity | To make sure the bot can play music, connect to voice channels, and deafen itself. | Required |
 
 
 

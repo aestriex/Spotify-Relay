@@ -1,4 +1,4 @@
-const { CommandInteraction, MessageEmbed, MessageActionRow, MessageButton, ButtonInteraction, DiscordAPIError, Discord } = require("discord.js");
+const { MessageEmbed, MessageActionRow, MessageButton, ButtonInteraction } = require("discord.js");
 
 module.exports = {
     name: "help",
@@ -7,6 +7,7 @@ module.exports = {
      * @param {ButtonInteraction} interaction 
      */
     execute(interaction) {
+
         const helpPanel = new MessageEmbed()
             .setTitle("Spotify Relay - Commands")
             .setDescription("Spotify Relay is a bot allowing users to listen to their favorite songs and podcasts via Discord. Here are all of our commands, and what they do!\n\n" +
@@ -30,7 +31,7 @@ module.exports = {
             "\n **• /volume** - Change the player's volume." +
             "\n **• /seek** - Seek through the current playing track or song." +
             "\n **• /queue** - View the current queue.")
-            .setColor("#303136");
+            .setColor("#17D860");
     
         const helpButtonsRow = new MessageActionRow();
 
