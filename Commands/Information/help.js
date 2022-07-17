@@ -26,7 +26,7 @@ module.exports = {
             "\n **• /unpause** - Resume the current track." +
             "\n **• /stop** - Clear the queue and stop the player." +
             "\n **• /skip** - Skip the current track." +
-            "\n **• /loop** - Loop the current track." +
+            "\n **• /loop** - Loop the current track or queue." +
             "\n **• /shuffle** - Shuffle the queue." +
             "\n **• /volume** - Change the player's volume." +
             "\n **• /seek** - Seek through the current playing track or song." +

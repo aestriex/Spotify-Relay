@@ -19,7 +19,7 @@ module.exports = {
     async execute(interaction, client) {
         const song = interaction.options.getString('query');
         const Player = client.player;
-
+        let queuedsong;
         const queue = Player.CreateQueue(interaction.guild.id);
         
         let user = await interaction.member.fetch();
@@ -29,6 +29,7 @@ module.exports = {
         };
 
         queue.play(song, channel, user);
+        return interaction.reply(`Now playing **${song}**, added by \<@${user.id}>.`, {"allowedMentions": { "users" : []}}).catch(err => {})
     }
 
 
