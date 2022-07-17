@@ -35,7 +35,7 @@ This bot has a range of commands to make sure that the bot is as accessible to i
 
 ## Usage
 
-To use this bot in your own server, invite it using the below url:
+To use this bot in your own server, invite it using the below url:  
 **Important:** This bot has *not* been fully released as of 2022-07-17.
 
 https://discord.com/api/oauth2/authorize?client_id=997975523978387456&permissions=3165440&scope=bot%20applications.commands
