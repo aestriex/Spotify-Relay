@@ -19,7 +19,7 @@ module.exports = {
             "\n **• /support** - Get an invite to our support server!" +
             
             "\n\n**Music Commands**" +
-            "\n **• /play** - Play a song from YouTube or a stream." +
+            "\n **• /play** - Play a song from Spotify, such as a track, playlist, or podcast." +
             "\n **• /nowplaying** - Get the current playing track." +
             "\n **• /pause** - Pause the current track." +
             "\n **• /unpause** - Resume the current track." +
